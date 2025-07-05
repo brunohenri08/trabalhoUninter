@@ -1,0 +1,99 @@
+/* Impordando fonte deferente do google fonts para o titulo */
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Kaushan+Script&display=swap');
+
+body {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    padding: 0%;
+    margin: 0%;
+    width: max-content;
+    justify-self: center;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 160px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    column-gap: 30px;
+    border: 1px solid white;
+    width: max-content;
+    justify-self: center;
+}
+
+b:hover{
+    cursor: pointer;
+}
+
+.submenu{
+    padding: 0px;
+    margin-top: 10px;
+    justify-self: center;
+}
+
+.avatar:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.rodape{
+    flex-shrink: 0;
+    border: 1px solid pink;
+    background-color: grey;
+    padding: 20px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+}
+
+.diploma {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.diploma:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.imgcontato {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.imgcontato:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.imgportifolio {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.imgportifolio:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
